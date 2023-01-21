@@ -3,6 +3,9 @@ import './App.css';
 //Import constant
 import {Header} from './components/Header';
 import CHeaderNew from './components/CHeader';
+import Channel from './components/Channel';
+import FunctionalCompo from './components/FunctionalCompo';
+import CFunctionalCompo from './components/CFunctionalCompo';
 
 class App extends React.Component{
   render(){
@@ -21,6 +24,11 @@ class App extends React.Component{
           </CHeaderNew>
 
           <CHeaderNew name="AVi" lname="41534"/>
+
+          <Channel/>
+          <FunctionalCompo/>
+          <CFunctionalCompo roll ="56"/>
+
       </div>
     );
   }
