@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
 class CHeader extends React.Component{
     render(){
-      return <h1>Hello classA Component</h1>
+      return (
+                <div className="dsfdf">
+                    <h1>Hello class Component {this.props.name} {this.props.lname}</h1>
+                    {this.props.children}
+                </div>
+
+      )
     }
 }
 
