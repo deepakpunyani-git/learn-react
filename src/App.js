@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
+//Import constant
+import {Header} from './components/Header';
 
 
 //JSX
