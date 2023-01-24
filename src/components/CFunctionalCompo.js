@@ -26,8 +26,8 @@ export class CFunctionalCompo extends Component {
 
   render() {
     return (
-        <div>    <button onClick={this.msgPrint2}>PRess ME 2</button>    
-        <button onClick={this.msgPrintNew}>PRess ME New</button>   </div>
+        <React.Fragment>    <button onClick={this.msgPrint2}>PRess ME 2</button>    
+        <button onClick={this.msgPrintNew}>PRess ME New</button>   </React.Fragment>
  
 
     )
